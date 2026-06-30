@@ -1,0 +1,92 @@
+sensor_id,station,province,city,description,longitude,latitude,last_seen
+80F3DA5493DC,11 Alexander Ferrierasdorp,Gauteng,Johannesburg,One of our nodes at 11 Alexander Ferrierasdorp,28.03249,-26.20807,3:59 AM
+80F3DA55313C,Air Quality -Ottawa,Canada,Ottawa,Station located in Ottawa Canada,-75.69817,45.421,06/05/2026
+80F3DA50F530,Arbonia Kya Sands,Gauteng,Johannesburg,One of the two nodes at Arbonia in Kya Sands,27.95393,-26.03604,4:02 AM
+80F3DA55B3D4,Badirile Library,Gauteng,Rand West,Our station in Badirile Library,27.58611,-26.13631,14/05/2026
+80F3DA50DE3C,Benmore Gardens,Gauteng,Johannesburg,Station located at Benmore Gardens,28.04659,-26.09155,4:02 AM
+80F3DA53B01C,Benoni Eastlands (East),Gauteng,Johannesburg,Station located in Benoni,28.3332,-26.05828,4:01 AM
+80F3DA54E9F8,Benoni Eastlands (West),Gauteng,Johannesburg,Our station in Benoni Eastlands (West),28.32771,-26.05865,4:00 AM
+80F3DA50E388,Blairgowrie,Gauteng,Johannesburg,Station located at Blairgowrie,28.00595,-26.11248,4:03 AM
+80F3DA54B464,Boksburg 1,Gauteng,Johannesburg,Our station in Boksburg,28.26258,-26.16675,4:02 AM
+80F3DA55B134,Boschkop (Pretoria Far East),Gauteng,Pretoria,One our stations at Boschkop (Pretoria Far East),28.50967,-25.85783,4:01 AM
+350457791749821,Braamfischer,Gauteng,Johannesburg,Our station in braamfischer primary,27.853998646034164,-26.196616341076925,4:00 AM
+80F3DA558250,Braamfischer,Gauteng,Johannesburg,Our station in braamfischer primary,27.853998646034164,-26.196616341076925,4:00 AM
+80F3DA550AFC,CERN B175,Geneva,Meyrin,Station located at CERN B175,6.049978,46.230829,4:02 AM
+80F3DA544DB0,CERN B175 (2nd Device),Geneva,Meyrin,"Our Station at B175, CERN",6.049933,46.230525,4:01 AM
+80F3DA54AD58,CERN SA Office,Geneva,Meyrin,Station located at CERN SA Office,6.054336,46.232451,4:01 AM
+80F3DA50F2C0,CMCNetworks Woodmead,Gauteng,Johannesburg,Station located at CMCNetworks Woodmead,28.08434,-26.06326,4:02 AM
+80F3DA545954,Datafree Bryanston,Gauteng,Johannesburg,Our station at Datafree Bryanston,28.02221,-26.054,4:02 AM
+80F3DA555FB8,Desmond Tutu Library,Gauteng,Mogale,Station at Desmond Tutu Library Mogale,27.75474,-26.07935,05/04/2026
+80F3DA559B2C,Douglasdale,Gauteng,Johannesburg,One of the two nodes at Douglasdale,27.99421,-26.03641,3:59 AM
+80F3DA5474CC,Fairland,Gauteng,Johannesburg,One of our stations at Rustfontein,27.9435,-26.13363,4:03 AM
+D0EF7673CB4C,Gstad East.,Mpumalanga,Greylingstad,One of the nodes at Gstad East,28.7692,-26.7424,4:01 AM
+80F3DA50BD74,Gstad South,Mpumalanga,Mpumalanga,Station located at Gstad South,28.75062,-26.7474,4:00 AM
+80F3DA546CB8,Gstad West,Mpumalanga,Greylingstad,Station at Gstad West,28.75817,-26.74168,4:02 AM
+80F3DA547534,Haenertsburg,Gauteng,Johannesburg,One of our stations at Haenertsburg,29.93118,-23.94836,4:01 AM
+80F3DA54A214,HOME_AQ1,Gauteng,Johannesburg,HOME_AQ1 Station,28.25388,-25.65121,4:01 AM
+80F3DA54BE20,HOME_AQ2,Gauteng,Johannesburg,HOME_AQ2 Station,28.2539,-25.65123,4:00 AM
+80F3DA557F50,Houghton Village,Gauteng,Johannesburg,Station located in Houghton Village,28.05255,-26.18,31/05/2026
+80F3DA54F000,Houghton/Fellside,Gauteng,Johannesburg,Air Quality Monitoring Node,28.07555,-26.16629,4:00 AM
+80F3DA557868,IDRC Indoor Ottawa,Canada,Ottawa,Station located in Ottawa,-75.69811,45.42129,06/05/2026
+80F3DA5544D4,IKUSASALETHU SECONDARY SCHOOL CO2,Gauteng,Johannesburg,Our station in IKUSASALETHU SECONDARY SCHOOL,27.82732,-26.19318,3:25 AM
+80F3DA542D5C,Inso Aluminum Kya Sands,Gauteng,Johannesburg,One of the two nodes at Inso Aluminum Kya Sands,27.945617497789353,-26.024763910139068,4:02 AM
+351901936738651,iThemba Labs (db),Gauteng,Johannesburg,First station at iThemba Labs,28.029644612240183,-26.185896602269178,3:54 AM
+350457790741209,J.B Marks Secondary,Gauteng,Johannesburg,Station located at a secondary school in Soweto.,27.858468,-26.204235,4:02 AM
+350457790675282,J.B Marks Secondary,Gauteng,Johannesburg,Station located at a secondary school in Soweto.,27.858468,-26.204235,4:02 AM
+80F3DA550F78,J.B Marks Secondary,Gauteng,Johannesburg,Station located at a secondary school in Soweto.,27.858468,-26.204235,4:02 AM
+80F3DA50EEC8,Kagiso Library,Gauteng,Mogale,Station at Kagiso Library Mogale,27.7863,-26.15123,4:02 AM
+80F3DA549B40,Kensington,Gauteng,Johannesburg,One of our nodes at Kensington,28.11745,-26.19666,4:03 AM
+80F3DA54EF18,Killarney,Gauteng,Johannesburg,Air Quality Station,28.0489,-26.16735,4:02 AM
+80F3DA539154,Klipfontein,Gauteng,Johannesburg,One of the two nodes at Klipfontein,29.23466,-25.91223,4:00 AM
+80F3DA50F088,KOKOSI Old Library,Gauteng,Merafong,Our station in Gokosi Old Library,27.46795,-26.49442,07/05/2026
+80F3DA5427F8,Kya Sands 2,Gauteng,Johannesburg,Node at Kaya Sands 2,27.93664,-26.03802,4:03 AM
+80F3DA558BC0,Kyalami 1,Gauteng,Johannesburg,One of our stations at Kyalami,28.0856,-25.99727,4:02 AM
+80F3DA549348,Lavin,Gauteng,Johannesburg,Air Quality Node,28.15642,-26.17581,Yesterday 3:51 PM
+350457790675241,Lufhereng,Gauteng,Jahannesburg,Station at Lufhereng Secondary school in Soweto.,27.8009,-26.2395,01/04/2026
+80F3DA53FB10,Lufhereng,Gauteng,Jahannesburg,Station at Lufhereng Secondary school in Soweto.,27.8009,-26.2395,01/04/2026
+80F3DA5573F8,Midrand 1,Gauteng,Midrand,Station located in Midrand,28.09707,-26.00877,4:01 AM
+004B122FD0F8,Midvaal Sicelo Library,Gauteng,Sedibeng District,"Our Station at Sharpeville Reception, Sedibeng District for Co2",27.986431,-26.553092,3:25 AM
+350457791750028,Milpark NetCare 2,Gauteng,Johannesburg,Milpark NetCare 2,28.017517,-26.181013,18/05/2026
+80F3DA558164,Mo Afrika,Gauteng,Johannesburg,One of our stations at Mo Afrika,27.90177,-26.26759,3:58 AM
+80F3DA558534,Mo Afrika Tladi Soweto,Gauteng,Johannesburg,One of our stations at Mo Afrika,27.84519,-26.26135,03/06/2026
+80F3DA544FB0,Modular Library,Gauteng,Merafong,Our station at Modular Library,27.32746,-26.32874,07/05/2026
+80F3DA50B704,Montgomery Park Node 1,Gauteng,Johannesburg,Our device at Montgomery Park Node 1,27.99002,-26.15881,3:59 AM
+80F3DA558251,Node at Majestic Towers,Gauteng,Johannesburg,Our station at Majestic Towers,28.045358,-26.186686,3:25 AM
+80F3DA547384,NorthCliff,Gauteng,Johannesburg,One of the two nodes at NorthCliff,27.94416,-26.15717,4:00 AM
+80F3DA50DE58,Northwold Drive,Gauteng,Johannesburg,Our stationalong Northwold Drive,28.03394,-26.15824,4:03 AM
+350457791749920,Origin Centre,Gauteng,Johannesburg,Station located at Origin Centre,28.028561,-26.193147,4:02 AM
+350457790675282,Origin Centre,Gauteng,Johannesburg,Station located at Origin Centre,28.028561,-26.193147,4:02 AM
+351901936738230,Origin Centre (db),Gauteng,Johannesburg,Our station at Origin Centre with decibel readings,28.027899,-26.192734,4:01 AM
+80F3DA53D73C,Parkhurst 1,Gauteng,Johannesburg,One of the two nodes at Parkhurst 1,28.01692,-26.13868,4:00 AM
+80F3DA53FFDC,Parkhurst 2,Gauteng,Johannesburg,One of the two nodes at Parkhurst 2,28.01874,-26.13436,4:02 AM
+80F3DA545DE0,Pretoria East,Gauteng,Pretoria,Our station in Pretoria East,28.33098,-25.80564,4:01 AM
+80F3DA554B18,Randgate Library,Gauteng,Rand West,Our station in Randgate Library,27.68445,-26.16942,3:59 AM
+80F3DA542CDC,Rusfontein 1,Mpumalanga,Rustfontein,Our Station at Rustfontein,28.71114,-26.69891,3:55 AM
+80F3DA55B124,Rusfontein 10,Mpumalanga,Middelburg,Station in Rietfontein 10,28.67171,-26.74936,Yesterday 2:43 PM
+80F3DA544CC0,Rusfontein 3,Mpumalanga,Rustfontein,One of our stations at Rustfontein,28.62295,-26.82262,3:59 AM
+350976650261636,Sandton site 1,Gauteng,Johannesburg,Sandton site 1,28.084261,-26.089861,3:59 AM
+350976650248534,Sandton site 1,Gauteng,Johannesburg,Sandton site 1,28.084261,-26.089861,3:59 AM
+80F3DA543A10,Sandton site 1,Gauteng,Johannesburg,Sandton site 1,28.084261,-26.089861,3:59 AM
+80F3DA536558,Sandton Site 2,Gauteng,Johannesburg,Sandton Site 2,28.049458,-26.104189,14/05/2026
+80F3DA53D9E8,Seriti Office,Gauteng,Midrand,Station located at Seriti Office,28.12146,-25.98198,4:00 AM
+1C6920945B00,Sharpeville Reception,Gauteng,Sedibeng District,"Our Station at Sharpeville Reception, Sedibeng District for Co2",27.871033,-26.68722,3:25 AM
+80F3DA54C238,Syferfontein Farm,Mpumalanga,Syferfontein,Station located at Syferfontein Farm,28.69799,-26.74708,4:02 AM
+80F3DA53F414,SYNERGIA Leeds 1,xx,Leeds,SYNERGIA1 Station,-1.439517,53.88992,4:01 AM
+80F3DA543464,SYNERGIA Leeds 10,xx,Leeds,SYNERGIA station,-1.784284,53.83175,4:02 AM
+80F3DA542A94,SYNERGIA Leeds 2,xx,Leeds,SYNERGIA1 Station,-1.439519,53.88989,4:01 AM
+80F3DA5595B8,SYNERGIA Leeds 3,xx,Leeds,SYNERGIA station,-1.439525,53.88995,4:01 AM
+80F3DA551440,SYNERGIA Leeds 4,xx,Leeds,SYNERGIA station,-1.567504,53.82886,3:59 AM
+80F3DA5580BC,SYNERGIA Leeds 5,xx,Leeds,SYNERGIA station,-1.56687,53.82892,4:03 AM
+80F3DA53E828,SYNERGIA Leeds 9,xx,Leeds,SYNERGIA station,-1.439561,53.8899,4:02 AM
+80F3DA53E82C,Tshimologong,Gauteng,Johannesburg,Our station atTshimologong,28.03291,-26.1982,4:03 AM
+80F3DA53AE0C,Tshimologong 2,Gauteng,Johannesburg,Tshimologong 2 Station,28.03143,-26.19459,Yesterday 6:42 PM
+80F3DA554F20,Tshimologong 2,Gauteng,Johannesburg,Tshimologong 2 Station,28.03143,-26.19459,Yesterday 6:42 PM
+80F3DA540038,Victory Park 1,Gauteng,Johannesburg,Our station at Victory Park 1,28.014579,-26.131215,4:03 AM
+80F3DA53F7FC,Victory Park 2.0,Gauteng,Johannesburg,Station at Victory Park,28.0148,-26.13114,3:59 AM
+80F3DA53A570,Vlakfontein 599,Mpumalanga,Vlakfontein,One of our stations at Vlakfontein,28.71294,-26.76229,4:03 AM
+80F3DA557C08,Welgemoed,Western Cape,Cape Town,Air Quality Station,18.43472,-34.1567,4:01 AM
+80F3DA53DBE0,Westdene 1,Gauteng,Johannesburg,Station located in Westdene.,27.98411,-26.18054,09/06/2026
+80F3DA55574C,Westdene 2,Gauteng,Johannesburg,Station located at Westdene 2,27.98529,-26.18201,3:59 AM
+80F3DA557E14,Westdene 2,Gauteng,Johannesburg,Station located at Westdene 2,27.98529,-26.18201,3:59 AM
+80F3DA53CDFC,Wrdm Hectorton,Gauteng,Johannesburg,One of the two nodes at Hectorton,27.7083,-26.17055,4:01 AM
+80F3DA558DF0,WRDM Offices,Gauteng,West Rand,Station located at WRDM Offices,27.70146,-26.18208,3:59 AM
