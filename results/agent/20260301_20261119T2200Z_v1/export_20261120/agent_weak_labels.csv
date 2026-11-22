@@ -1,0 +1,7 @@
+label,decision,human_verdict,reviewed_action,pairs
+real,alert,correct,alert,3
+real,alert,unreviewed,,4
+real,no_alert,unreviewed,,2
+uncertain,alert,unreviewed,,8
+uncertain,no_alert,correct,no_alert,1
+uncertain,no_alert,unreviewed,,3

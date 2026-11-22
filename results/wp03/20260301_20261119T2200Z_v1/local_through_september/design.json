@@ -1,0 +1,18 @@
+{
+  "dataset_hash": "62cd597630ca6623aafe57878166145b15645d69d1c71820b230713f23b787e2",
+  "boundary": "2026-08-01",
+  "strict": 886,
+  "eligible": 886,
+  "train": 586,
+  "test": 297,
+  "purged": 3,
+  "features": [
+    "peak",
+    "event_mean",
+    "prior_mean",
+    "prior_sd",
+    "idw_pm25"
+  ],
+  "selection": "mean inner balanced accuracy; ties use first grid value",
+  "scope": "local_through_september"
+}

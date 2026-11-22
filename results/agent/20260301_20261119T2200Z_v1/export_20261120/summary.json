@@ -1,0 +1,59 @@
+{
+  "missing_measurement_values": 2,
+  "source_hashes": {
+    "agent_events.csv": "cdc9a52ecfe37e8739dcb1d86886fce021b77bb91719524ab80f0887d7aa537a",
+    "export_summary.json": "2220ef2ebfc99bd6672443fa737d5efd2a9158f4076399d0483b897544351c51",
+    "station_sensor_map.csv": "ca4bcc97510f103f88ecfb95ada96447a712f065836ed1ed81dcf243c79d6d1e"
+  },
+  "investigations": 1691,
+  "reviewed": 118,
+  "rebuilt_events": 2683,
+  "independently_verified_event_links": 0,
+  "conditional_unique_pairs": 21,
+  "events_without_unique_pair": 2662,
+  "reviewed_unique_pairs": 4,
+  "heldout_unique_events": 1,
+  "reviewed_heldout_events": 0,
+  "statuses": {
+    "unmatched": 865,
+    "no_model_site": 328,
+    "outside_period": 177,
+    "station_multiple_sensors": 134,
+    "multiple_investigations": 126,
+    "unmapped_station": 40,
+    "matched": 21
+  },
+  "reviewed_statuses": {
+    "unmatched": 82,
+    "no_model_site": 22,
+    "multiple_investigations": 7,
+    "matched": 4,
+    "station_multiple_sensors": 3
+  },
+  "clock_scenarios": [
+    {
+      "offset_hours": 0,
+      "unique_pairs": 21,
+      "reviewed_pairs": 4,
+      "repeated_events": 33,
+      "conflicting_repeated_events": 0,
+      "events_without_overlap": 2629
+    },
+    {
+      "offset_hours": -2,
+      "unique_pairs": 15,
+      "reviewed_pairs": 2,
+      "repeated_events": 15,
+      "conflicting_repeated_events": 1,
+      "events_without_overlap": 2653
+    },
+    {
+      "offset_hours": 2,
+      "unique_pairs": 78,
+      "reviewed_pairs": 12,
+      "repeated_events": 36,
+      "conflicting_repeated_events": 2,
+      "events_without_overlap": 2569
+    }
+  ]
+}

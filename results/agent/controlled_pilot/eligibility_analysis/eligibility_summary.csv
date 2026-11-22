@@ -1,0 +1,5 @@
+status,n_events,cohort_share
+Conditionally eligible,83,0.27946127946127947
+Ineligible,211,0.7104377104377104
+Unresolved station identity,3,0.010101010101010102
+All held-out events,297,1.0

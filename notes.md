@@ -140,3 +140,93 @@ https://www.geeksforgeeks.org/machine-learning/how-to-optimize-logistic-regressi
 | `l1`| Can shrink some coefficients to exactly zero | `liblinear`, `saga`|
 | `elasticnet` | Mixes L1 and L2 | `saga` only |
 | `None` | No regularisation | not `liblinear`|
+
+
+### RULE-DERIVED ASSUMPTIONS
+
+1. Confirmed Real — confirmed_real_close_duration
+
+A spike candidate is labelled real when:
+At least one neighbouring sensor also experiences a spike at approximately the same time, and the neighbouring spike has a similar duration to the target sensor's spike.
+
+Formally:
+n_close_duration_neighbours >= 1
+
+
+For a neighbour to count as a close-duration neighbour:
+target_duration_timesteps >= 1 AND neighbour_duration_timesteps >= 1 AND abs(target_duration_timesteps - neighbour_duration_timesteps) <= 1
+
+
+Therefore, the duration tolerance is ±1 timestep/hour.
+
+Assumption
+A genuine pollution event is expected to have some spatial consistency. If a nearby sensor independently detects a spike at approximately the same time and for approximately the same duration, this provides evidence that the increase represents a real environmental event rather than an isolated sensor malfunction.
+
+2. Suspected Fake — suspected_fake_sensor_artifact
+
+A spike candidate is labelled fake/sensor artifact only when all of the following conditions are satisfied:
+n_neighbours_checked > 0 AND n_active_neighbour_spikes == 0 AND target_duration_timesteps == 1 AND sharp_jump == True AND sharp_drop_after_event == True AND returns_to_normal_quickly == True
+
+
+So there are several pieces of evidence being combined.
+Spatial evidence: at least one neighbouring sensor was available to check, but none of those neighbours showed a corresponding spike.
+Duration evidence: the spike lasted only one timestep.
+Shape evidence: the reading showed a sharp increase, followed by a sharp decrease after the event, and then quickly returned to its normal/baseline behaviour.
+
+Assumption
+An isolated, short-lived, abrupt excursion that immediately disappears and is not observed by nearby sensors is more consistent with a sensor-specific artifact than a genuine environmental pollution event.
+
+3. Spatially Supported but Different Duration — spatially_supported_different_duration
+This occurs when neighbouring sensors provide spatial evidence of an event, but their event durations do not satisfy your ±1 timestep duration-matching requirement.
+Conceptually:
+Neighbouring spike exists
+        +
+No neighbour has sufficiently close duration
+        ↓
+spatially_supported_different_duration
+
+Assumption
+There is evidence that something real may have happened in the area, but the temporal behaviour across sensors isn't similar enough to satisfy your stronger definition of a confirmed real spike.
+Therefore, you don't force this candidate into either the real or fake training class.
+
+4. Isolated / Unconfirmed
+These are candidates for which there isn't enough evidence to confidently call them either real or fake.
+This includes cases such as:
+Target sensor detects spike
+        ↓
+No sufficient supporting evidence
+        ↓
+But candidate DOES NOT satisfy
+all fake-artifact conditions
+        ↓
+UNCONFIRMED
+
+It can also include situations where neighbouring sensors aren't sufficiently available to make a meaningful spatial comparison.
+Assumption
+Absence of evidence is not automatically evidence that the spike is fake.
+This is an important part of your methodology. A spike isn't labelled fake simply because another sensor didn't detect it. It needs the additional one-timestep + sharp-jump + sharp-drop + quick-return behaviour.
+Overall decision structure
+Your labelling logic can therefore be summarized as:
+
+                     SPIKE CANDIDATE
+                           │
+                           ▼
+                 Check neighbouring sensors
+                           │
+              ┌────────────┴─────────────┐
+              │                          │
+       Neighbour spike             No neighbour spike
+              │                          │
+              ▼                          ▼
+     Compare event duration       Check artifact pattern
+              │                          │
+       ┌──────┴──────┐             ┌────┴──────────┐
+       │             │             │               │
+   Within ±1      Different      All fake        Conditions
+    timestep       duration      conditions       not met
+       │             │             │               │
+       ▼             ▼             ▼               ▼
+ CONFIRMED       SPATIALLY      SUSPECTED       UNCONFIRMED
+    REAL         SUPPORTED         FAKE
+                 DIFFERENT       ARTIFACT
+                 DURATION

@@ -1,0 +1,4 @@
+human_verdict,decision,reviewed_action,investigations
+correct,alert,alert,79
+correct,no_alert,no_alert,24
+wrong,no_alert,alert,15

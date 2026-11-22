@@ -1,0 +1,13 @@
+{
+  "raw_rows": 2061501,
+  "raw_sensors": 83,
+  "extra_keys": 26672,
+  "conflicting_keys": 12,
+  "located_sensors": 82,
+  "events": 1830,
+  "labels": {
+    "uncertain": 1272,
+    "real": 372,
+    "fake": 186
+  }
+}

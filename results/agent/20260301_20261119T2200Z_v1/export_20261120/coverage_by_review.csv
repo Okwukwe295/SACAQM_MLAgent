@@ -1,0 +1,14 @@
+status,human_verdict,investigations
+matched,correct,4
+matched,unreviewed,17
+multiple_investigations,correct,7
+multiple_investigations,unreviewed,119
+no_model_site,correct,22
+no_model_site,unreviewed,306
+outside_period,unreviewed,177
+station_multiple_sensors,correct,3
+station_multiple_sensors,unreviewed,131
+unmapped_station,unreviewed,40
+unmatched,correct,67
+unmatched,unreviewed,783
+unmatched,wrong,15

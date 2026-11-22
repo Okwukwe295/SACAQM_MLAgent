@@ -28,3 +28,28 @@ yarn-debug.log*
 yarn-error.log*
 
 /raw_data/
+
+# Local credentials and Python working files
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Generated measurement tables and private investigation exports
+/data/derived/
+
+# LaTeX build intermediates
+/report/build/
+/report/*.aux
+/report/*.log
+/report/*.out
+/report/*.toc
+/report/*.bbl
+/report/*.blg
+/report/*.fls
+/report/*.fdb_latexmk
+/report/*.synctex.gz

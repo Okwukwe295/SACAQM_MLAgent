@@ -1,0 +1,18 @@
+{
+  "unique_events": 297,
+  "prediction_rows": 2376,
+  "unique_events_by_status": {
+    "eligible": 83,
+    "ineligible": 211,
+    "missing_data": 3
+  },
+  "scored_model_subgroups": 16,
+  "input_sha256": {
+    "results/wp03/20260301_20261119T2200Z_v1/local_through_september/design.json": "d0e10dbe0686cc148ace99d1f53be70bbd21b09919eb29c0f94e20de9a41fdfb",
+    "results/wp03/20260301_20261119T2200Z_v1/local_through_september/partition.csv": "6ea740ffb380897046e26f13268949558b715905fa2647f07c0ad15ae40a768c",
+    "results/wp03/20260301_20261119T2200Z_v1/local_through_september/predictions.csv": "fe455d0ffd54f0bef1d1ff0d0598d96b326a4cd8930ec674ebc3b2981f5675a4",
+    "data/derived/20260301_20261119T2200Z_v1/events.csv": "62cd597630ca6623aafe57878166145b15645d69d1c71820b230713f23b787e2",
+    "results/agent/controlled_pilot/eligibility.csv": "c03b17bd91d2a08883826e5990946643be35bfef66a46351108424df7c7ec026",
+    "results/agent/controlled_pilot/summary.json": "26faaa422a497b7a8a4da61e944ad5649254a4b1cec0531dd85a431be946834f"
+  }
+}

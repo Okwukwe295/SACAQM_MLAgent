@@ -1,0 +1,3 @@
+label,eligible,ineligible,missing_data,total,eligible_share
+real,55,142,3,200,0.275
+fake,28,69,0,97,0.28865979381443296

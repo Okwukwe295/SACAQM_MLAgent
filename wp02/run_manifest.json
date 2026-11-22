@@ -1,0 +1,30 @@
+{
+  "python": "3.10.11",
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "2.2.6",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.9"
+  },
+  "sha256": {
+    "raw_data\\march_data.csv": "2793049dda5185c17e88cce1c2414917bc060e135cf44d3c361116f560a08374",
+    "raw_data\\april_data.csv": "4af9339209c9de3e319bc97391acd5c38aeb4084992f7eebd05e62eb9ce51e1a",
+    "raw_data\\may_data.csv": "d96a73b055462d92db1f78eaadb40c13b53d00ddc51ab796e41aafec274ba977",
+    "raw_data\\june_data.csv": "0f6acfac978a1c78765e4ba58ac1b5165a699727a5fc9f9b981004e0ec403ffb",
+    "raw_data\\july_data.csv": "bae26bcb540cf2d1bf3cb89aa81b1f5885aa9a193f94965e69b62ba19063843e",
+    "sacaqm_dashboard_sensor_metadata.csv": "d9a3db302458a87d17059ef5e2b78df41deae17910d04ba2fc3cd73691cf064b",
+    "labelled_spike_candidates.csv": "98c1558f00f0dcef6a666ad76ac4b86c13f9e8c223ec6beaa7b79ea699d0a52b",
+    "wp02\\ambiguous_sites.csv": "58935f198f21378903aa0d2838652a2b7019acc27a7dbd7e7218620bf856786a",
+    "wp02\\conflicting_keys.csv": "a373b26d9418d285e234183839e636d6581b24f313cc58994a309fe3c41303a0",
+    "wp02\\events.csv": "bde9ace39916ce2fd1653c9b201462f4a2f2abdb4bcfd85bbef736a1bc85f1e2",
+    "wp02\\future_baseline.csv": "7794bbf91f02a8b697181ad9f01156a18e7dabd779bd4e3cf8f708d15349ed31",
+    "wp02\\future_tuned.csv": "7794bbf91f02a8b697181ad9f01156a18e7dabd779bd4e3cf8f708d15349ed31",
+    "wp02\\held_sensor_baseline.csv": "7b92b7e0b26bd333a0a29a837006e8b2b81ef4c25273659a4ef1aec44ca47178",
+    "wp02\\inner_folds.csv": "566d7962cf23fd793dfed4b02b00065b90e516a2f4766bf2312ad25d31aa1e5d",
+    "wp02\\metrics.csv": "1a40711cdcc16686cc0b1a6f1d7244c30b7a19a1ed7ddf4efc51b3148db7c5bd",
+    "wp02\\review_cases.csv": "667e24fab66ab12e4f8f54a40c5b725f08d70a502bd9f2ef251fc6e540be85da",
+    "wp02_model.py": "9850b4e69d918d8c797c80c2e5ef1982239ba1d8827e6ff5decc6df31342ae50",
+    "wp02_prepare.py": "94a095371ceafe18fb439ec2d957ccb812e40ee92575d2bcd8dd17657df0a14f",
+    "wp02_review.py": "1513f45d59695e8a35f79843f75a2e5aecd3a483d5a996919301836311a905ec"
+  }
+}

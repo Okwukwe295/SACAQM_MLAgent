@@ -1,0 +1,11 @@
+station_hour_count,station_hour_conflict,investigations
+1,False,863
+2,False,156
+2,True,8
+3,False,330
+3,True,21
+4,False,232
+4,True,4
+5,False,25
+6,False,24
+7,False,28

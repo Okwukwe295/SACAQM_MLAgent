@@ -1,0 +1,9 @@
+arm,model,label,decision,prediction,human_verdict,reviewed_action,pairs
+temporal,boosting,real,alert,0,unreviewed,,1
+temporal,forest,real,alert,0,unreviewed,,1
+temporal,logistic,real,alert,1,unreviewed,,1
+temporal,svm,real,alert,0,unreviewed,,1
+temporal_spatial,boosting,real,alert,1,unreviewed,,1
+temporal_spatial,forest,real,alert,1,unreviewed,,1
+temporal_spatial,logistic,real,alert,1,unreviewed,,1
+temporal_spatial,svm,real,alert,0,unreviewed,,1

@@ -1,0 +1,48 @@
+{
+  "raw_rows": 2934580,
+  "raw_sensors": 83,
+  "extra_keys": 26672,
+  "conflicting_keys": 12,
+  "located_sensors": 82,
+  "events": 2683,
+  "labels": {
+    "uncertain": 1797,
+    "real": 572,
+    "fake": 314
+  },
+  "requested_end_exclusive": "2026-11-19 22:00:00",
+  "observed_end": "2026-09-25 23:59:50",
+  "inputs": {
+    "raw_data/april_data.csv": "4af9339209c9de3e319bc97391acd5c38aeb4084992f7eebd05e62eb9ce51e1a",
+    "raw_data/august_data.csv": "57fb732038a888519518f6aae23eb5ea8147d8b1d0a5575de7214d2f5e453cdc",
+    "raw_data/july_data.csv": "bae26bcb540cf2d1bf3cb89aa81b1f5885aa9a193f94965e69b62ba19063843e",
+    "raw_data/june_data.csv": "0f6acfac978a1c78765e4ba58ac1b5165a699727a5fc9f9b981004e0ec403ffb",
+    "raw_data/march_data.csv": "2793049dda5185c17e88cce1c2414917bc060e135cf44d3c361116f560a08374",
+    "raw_data/may_data.csv": "d96a73b055462d92db1f78eaadb40c13b53d00ddc51ab796e41aafec274ba977",
+    "raw_data/september_data.csv": "f01ab1a9fd85f77a8d23bfd01f67654fb5e6dc94eb034564f9d21c12bfba0855",
+    "sacaqm_dashboard_sensor_metadata.csv": "d9a3db302458a87d17059ef5e2b78df41deae17910d04ba2fc3cd73691cf064b"
+  },
+  "request_status": {
+    "unrequested": 809,
+    "failed": 1
+  },
+  "fully_reconciled": false,
+  "outputs": {
+    "events.csv": "62cd597630ca6623aafe57878166145b15645d69d1c71820b230713f23b787e2",
+    "hourly.csv.gz": "dea400f03a30ec253c7f5b39ff33d6198e8eeb74927fdcd01ad168d969a9d5ab",
+    "ambiguous_sites.csv": "58935f198f21378903aa0d2838652a2b7019acc27a7dbd7e7218620bf856786a",
+    "conflicting_keys.csv": "a373b26d9418d285e234183839e636d6581b24f313cc58994a309fe3c41303a0",
+    "sensor_day_coverage.csv.gz": "d3d118093a7dc544df723dc1375f0e9409effaea18edb4585cc0caeee572601d"
+  },
+  "python": "3.10.11",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "requests": "2.34.2"
+  },
+  "scripts": {
+    "prepare.py": "c2ee1086e976b6e2d5ca65153be130c177de91ccd4001064bb14645a3bb046d9",
+    "ingest.py": "7db4946c9e9a526301109051c6f8f91a67e1434f398dd82329c6b75553e2283b"
+  }
+}
