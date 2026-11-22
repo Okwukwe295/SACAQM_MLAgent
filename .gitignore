@@ -53,3 +53,5 @@ __pycache__/
 /report/*.fls
 /report/*.fdb_latexmk
 /report/*.synctex.gz
+
+/AGENT_AI/
